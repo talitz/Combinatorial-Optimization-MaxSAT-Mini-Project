@@ -194,8 +194,8 @@ public class MainAlgorithmsRunner {
 		
 		//runDAlgorithm(3,10,80,100);
 		
-		//runFirstLocalOptimumAlgorithm(3,10,42,1000); //1000 points to create and check if they are local optimum points
+		//runFirstLocalOptimumAlgorithm(3,15,60,1000); //1000 points to create and check if they are local optimum points
 		
-		//runSecondLocalOptimumAlgorithm(3,10,42,1000); //1000 points to create and "climb" the way to local optimum points
+		runSecondLocalOptimumAlgorithm(3,15,60,1000); //1000 points to create and "climb" the way to local optimum points
 	}
 }
