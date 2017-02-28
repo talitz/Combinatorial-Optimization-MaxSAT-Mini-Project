@@ -185,17 +185,17 @@ public class MainAlgorithmsRunner {
 	}
 	
 	public static void main(String[] args) throws NumberFormatException, IOException {
-		runAAlgorithm(3,10,42,100,false,0);
-		runAAlgorithm(3,10,42,100,true,100); //improved version
+		//runAAlgorithm(3,10,42,100,false,0);
+		//runAAlgorithm(3,10,42,100,true,100); //improved version
 		
-		runBAlgorithm(3,10,42,100);
+		//runBAlgorithm(3,10,42,100);
 		
-		runCAlgorithm(3,10,80,100);
+		//runCAlgorithm(3,10,80,100);
 		
-		runDAlgorithm(3,10,80,100);
+		//runDAlgorithm(3,10,80,100);
 		
-		runFirstLocalOptimumAlgorithm(3,10,42,1000); //1000 points to create and check if they are local optimum points
+		//runFirstLocalOptimumAlgorithm(3,10,42,1000); //1000 points to create and check if they are local optimum points
 		
-		runSecondLocalOptimumAlgorithm(3,10,42,1000); //1000 points to create and "climb" the way to local optimum points
+		//runSecondLocalOptimumAlgorithm(3,10,42,1000); //1000 points to create and "climb" the way to local optimum points
 	}
 }
